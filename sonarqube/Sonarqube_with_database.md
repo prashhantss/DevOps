@@ -122,6 +122,7 @@ apt install net-tools
   ```sh 
   systemctl daemon-reload 
   systemctl start sonarqube.service 
+  ps -ef | grep sonar
   ```
 
 
